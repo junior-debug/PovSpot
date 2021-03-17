@@ -9,6 +9,8 @@
 body {
     background-image: url(../assets/images/background.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
 }
 
 form {
@@ -41,11 +43,18 @@ section {
 
 .form--text {
     max-width: 50%;
-    padding: 2% 0.5%;
+    border: none;
+    border-bottom: 1px solid #656565;
+    font-size: 12px;
+    padding-bottom: 2%;
+    padding-right: 12%;
+    padding-top: 2%;
+    padding-left: 2%;
+    color: #656565;
 }
 
 .form--text:first-child {
-    margin-top: 25%;
+    margin-top: 30%;
 }
 
 .form--button {
@@ -55,7 +64,10 @@ section {
     background: linear-gradient(to left, var(--Color-button), var(--Color-button_1));
     color: var(--color-title);
     font-size: 12px;
-    outline: none;
     border: none;
     cursor: pointer;
+    box-shadow: none;
+    outline: 0;
+    
 }
+
