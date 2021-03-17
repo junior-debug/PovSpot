@@ -8,11 +8,11 @@
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     background-image: url(../assets/images/Background-mobile.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Roboto', sans-serif;
 }
+
 
 form {
     display: flex;
@@ -32,7 +32,7 @@ section {
 .Title--img {
     width: 172px;
     height: 95px;
-    margin-top: 35%;
+    margin-top: 30%;
 }
 
 
