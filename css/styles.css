@@ -96,6 +96,7 @@ section {
     border: 1px solid var(--Color-button_1);
     display: flex;
     align-items: center;
+    background: none;
 }
 
 .logo__google {
