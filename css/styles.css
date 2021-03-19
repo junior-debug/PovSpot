@@ -5,13 +5,16 @@
     --Color-button: #51F26F;
     --Color-button_1: #0CAD60;
     --Color-Leters: #656565;
+    --Color-Leters-Ft: #333333;
+    --Color-Ft: #C4C4C4;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     background-image: url(../assets/images/Background-mobile.png);
     background-repeat: no-repeat;
-    
+    background-size: 100%;
+    overflow: hidden;
 }
 
 
@@ -100,4 +103,28 @@ section {
 
 .logo__google {
    margin-right: .6rem;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--Color-Ft);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.Footer--container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.Footer--list {
+    display: flex;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10px;
+    color: var(--Color-Leters-Ft);
+    list-style: none;
+
 }
