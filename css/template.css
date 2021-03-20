@@ -1,0 +1,35 @@
+:root{ 
+    --Color-Leters-Ft: #333333;
+    --Color-Ft: #C4C4C4;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../assets/images/Background_template.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--Color-Ft);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.Footer--container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.Footer--list {
+    display: flex;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10px;
+    color: var(--Color-Leters-Ft);
+    list-style: none;
+
+}
